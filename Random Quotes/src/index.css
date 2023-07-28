@@ -23,8 +23,19 @@ body {
   margin-top: 40px;
   flex-grow: 0;
   text-align: center;
+  border-radius: 5px;
 }
 
 #text {
   font-size: 2em;
+}
+
+#controls {
+  display:flex;
+  gap: 30px;
+}
+
+#tweet-quote {
+  text-decoration: none;
+  color: white;
 }
