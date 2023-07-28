@@ -9,16 +9,6 @@ export default function App() {
     fetchQuotes();
   }, []);
 
-  /* const fetchQuotes = async () => {
-    try {
-      const response = await fetch('https://api.api-ninjas.com/v1/quotes');
-      const data = await response.json();
-      setQuotes(data);
-      setIsLoading(false);
-    } catch (error) {
-      console.error('Error fetching quotes:', error);
-    }
-  }; */
 
   const fetchQuotes = async () => {
     try {
